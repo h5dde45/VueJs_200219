@@ -1,10 +1,7 @@
 new Vue({
     el: '#app',
     data: {
-        name: 'asd222',
-        number:100,
-        isOk: false,
-        string: 'xcv hnhn'
+        url: 'https://www.google.com',
     },
     methods: {
         sayHello() {
