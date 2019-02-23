@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './40/App.vue'
-import ColorDirective from './40/directive/color'
+import Vuelidate from 'vuelidate'
+import App from './57/App.vue'
 
-Vue.directive('colored', ColorDirective)
+Vue.use(Vuelidate)
 
 new Vue({
     render: h => h(App),
